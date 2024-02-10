@@ -25,7 +25,8 @@ SECRET_KEY = '#9s6bce1sdgutv-4=2ic_k#bh93pzp#eqry_vt*b5pblctwgfs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# 默认是127.0.0.1
+ALLOWED_HOSTS = ['192.168.72.137', 'localhost']
 
 
 # Application definition
@@ -104,9 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'  # 设置语言
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'  # 设置时区
 
 USE_I18N = True
 
