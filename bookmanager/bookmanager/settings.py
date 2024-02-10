@@ -26,7 +26,7 @@ SECRET_KEY = '#9s6bce1sdgutv-4=2ic_k#bh93pzp#eqry_vt*b5pblctwgfs'
 DEBUG = True
 
 # 默认是127.0.0.1
-ALLOWED_HOSTS = ['192.168.72.137', 'localhost']
+ALLOWED_HOSTS = ['192.168.72.137', 'localhost', '127.0.0.1']
 
 
 # Application definition
